@@ -12,7 +12,7 @@ import TiposCentrosDeTrabajo from "./components/Modules/administracion-plazas/ce
 import ControlDePlazasPresupuestales from "./components/Modules/administracion-plazas/control-de-plazas-presupuestales/ControlDePlazasPresupuestales";
 import { Filiacion } from "./components/Modules/administracion-plazas/filiacion/Filiacion";
 import Dashboard from "./components/Modules/administracion-sistema/Dashboard";
-import GestionDeUsuarios from "./components/Modules/administracion-sistema/gestionDeUsuarios/gestionDeUsuarios";
+// import GestionDeUsuarios from "./components/Modules/administracion-sistema/gestionDeUsuarios/gestionDeUsuarios";
 import Organigrama from "./components/Modules/administracion-sistema/organigrama/Organigrama";
 import NotFound from "./components/NotFound";
 import Loader from "./components/utilities/Loader/Loader";
@@ -89,7 +89,7 @@ const Rutas = () => {
             <Route path="/nomina/concepto-percepciones" element={<ConceptoPercepciones />} />
             <Route path="/nomina/concepto-deducciones" element={<ConceptoDeducciones />} />
 
-            <Route path="/gestion-de-usuarios" element={<GestionDeUsuarios />} />
+            {/* <Route path="/gestion-de-usuarios" element={<GestionDeUsuarios />} /> */}
             <Route path="/filiacion" element={<Filiacion />} />
             <Route path="/formato-unico-de-personal-estatal" element={<FormatoUnicoDePersonalEstatal />} />
             
