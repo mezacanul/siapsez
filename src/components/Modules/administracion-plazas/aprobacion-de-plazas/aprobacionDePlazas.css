@@ -1,0 +1,23 @@
+.container-PLAZA-aprobacion{
+  width: auto;
+  overflow: auto;
+  height: 550px;
+}
+
+@media (max-width: 1920px) {
+  .container-PLAZA-aprobacion{
+    height: 830px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container-PLAZA-aprobacion{
+    height: 550px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .container-PLAZA-aprobacion{
+    height: 430px;
+  }
+}

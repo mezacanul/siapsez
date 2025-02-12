@@ -1,0 +1,190 @@
+/* Estilos globales del sistema */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a{
+    color: var(--main-color);
+}
+
+h1, h2, h3, h4, h5, p, span, li, .text-color{
+    color: var(--text-color);
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+.main-content {
+    transition: margin-left 0.2s;
+    margin-left: 256px;
+    width: calc(100vw - 256px);
+}
+
+.main-content.collapsed {
+    margin-left: 80px;
+    width: calc(100vw - 80px);
+}
+
+.main-navbar {
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-color);
+    padding: 5px 20px;
+}
+
+.page-content{
+    padding: 15px 15px;
+    background-color: var(--bg-color);
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+}
+
+
+/* SIDEBAR STYLES */
+
+.sidebar {
+    position: fixed;
+}
+
+.collapse-btn{
+    color: var(--main-color) !important;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.collapse-btn.collapsed{
+    margin: 0 auto;
+}
+
+.menu-bar {
+    width: 256px;
+    height: calc(100vh - 50px) !important;
+    overflow-y: scroll;
+}
+
+.menu-bar.collapsed {
+    width: 80px;
+    height: calc(100vh - 50px) !important;
+    overflow-y: scroll;
+}
+
+.top-bar {
+    height: 50px;
+    padding: 10px 30px;
+    background-color: var(--main-color);
+}
+
+.ant-menu-item-selected, .ant-menu-submenu-title{
+    color: var(--main-color) !important;
+}
+
+/* Buttons */
+
+.btn-custom-primary{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.btn-custom-primary:hover{
+    background-color: white;
+    border: solid 1.5px var(--main-color);
+    color: var(--main-color);
+}
+
+.logout-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    transition: ease all 0.3s;
+}
+
+.logout-btn:hover{
+    transform: scale(1.2);
+}
+
+input{
+    border-radius: 5px;
+    border: solid 0.5px #b3b3b3;
+    height: 40px;
+}
+
+input:focus, input:focus-visible{
+    outline: none; /* Elimina el borde por defecto */
+}
+
+.modal-xl-custom{
+    max-width: 80vw;
+}
+
+/* Tabs */
+
+.main-color-tab div{
+    color: var(--main-color);
+}
+
+.main-color-tab span.MuiTabs-indicator{
+    background-color: var(--main-color);
+}
+
+/* Para las cards de los templates en PDF */
+.center-card{
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    margin: 3%;
+}
+
+/* Librería Ant Desing */
+:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline{
+    background: transparent !important;
+}
+
+/* Animations */
+@keyframes fade-left {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fade-right {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideTop {
+    from {
+      transform: translateY(20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }

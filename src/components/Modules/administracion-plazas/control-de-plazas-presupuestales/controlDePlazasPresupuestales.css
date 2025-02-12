@@ -1,0 +1,7 @@
+.with-custom{
+  width: 45%;
+}
+
+.btn-custom-addrow:hover{
+    background-color: rgba(131, 2, 2, 0.178);
+}

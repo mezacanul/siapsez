@@ -1,0 +1,41 @@
+.container-custom-form{
+  animation: fade-right 0.4s; 
+}
+
+.form-custom p{
+  margin: 0 !important;
+}
+
+.input-error {
+  border: 0.5px solid red !important;
+}
+
+.error-text {
+  color: red;
+}
+
+.text-area{
+  border-radius: 10px;
+  padding: 15px;
+  border: solid 0.5px #A6A6A6;
+}
+
+.custom-select-container {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select-container select {
+  appearance: none; /* Quita el estilo nativo del select */
+  width: 100%;
+  padding-right: 2rem; /* Espacio para el ícono */
+}
+
+.select-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* No permite interacción con el ícono */
+  color: #555;
+}

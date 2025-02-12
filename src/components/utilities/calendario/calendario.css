@@ -1,0 +1,85 @@
+/* Container --------------------------------------- */
+.calendario-container{
+  width: 100%;
+  height: 70vh;
+}
+
+/* Elimina los sábados y domingos de la vista semanal --------------------- */
+.calendario-container.semana-lunes-viernes .rbc-time-header .rbc-header:nth-last-of-type(-n+2) {
+  display: none;
+}
+.calendario-container.semana-lunes-viernes .rbc-time-header .rbc-day-bg:nth-last-of-type(-n+2) {
+  display: none;
+}
+.calendario-container.semana-lunes-viernes .rbc-time-content .rbc-day-slot:nth-last-of-type(-n+2) {
+  display: none;
+} 
+
+.container-event p{
+  margin: 0;
+}
+
+/* Elimina las sábados y domingos de la vista mensual */
+/* .rbc-time-column:nth-last-of-type(-n+2) {
+  display: none;
+}
+.rbc-date-cell:nth-last-of-type(-n+2) {
+  display: none;
+}
+.rbc-row-segment{
+  flex-basis: 20% !important;
+    max-width: 20% !important;
+} */
+
+/* Quita el color del fondo y borde del evento --------------------------*/
+.rbc-event{
+  background-color: transparent;
+  color: #000000;
+  padding: 0;
+}
+
+.rbc-day-slot .rbc-event{
+  border: 0;
+}
+
+.rbc-event.rbc-selected{
+  background: transparent;
+}
+
+.rbc-event:focus{
+  outline: 0;
+}
+
+/* Centra el contenido del evento ---------------------- */
+.rbc-day-slot .rbc-event-content{
+  text-align: center;
+}
+
+.rbc-event-content{
+  width: 100% !important;
+  padding: 0 10px !important;
+  text-align: center !important;
+}
+
+/* Elimina el margen del contenedor de eventos ---------- */
+.rbc-day-slot .rbc-events-container{
+  margin: 0;
+}
+
+/* Elimina el label del evento --------------------- */
+.rbc-event-label{
+  height: 0px !important;
+}
+
+/* Componentes (eventos personalizados) -------------- */
+.container-event{
+  height: 100%;
+  margin-bottom: 2px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.event-title{
+  color: #FFFFFF;
+  padding: 2px;
+}

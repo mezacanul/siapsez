@@ -1,0 +1,23 @@
+.container-FUP-revision{
+  width: auto;
+  overflow: auto;
+  height: 450px;
+}
+
+@media (max-width: 1920px) {
+  .container-FUP-revision{
+    height: 730px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container-FUP-revision{
+    height: 450px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .container-FUP-revision{
+    height: 330px;
+  }
+}

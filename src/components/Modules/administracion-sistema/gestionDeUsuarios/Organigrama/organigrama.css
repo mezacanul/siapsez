@@ -1,0 +1,43 @@
+.p-organizationchart-table > tbody > tr > td {
+    text-align: center !important;
+    vertical-align: top !important;
+    padding: 0 .75rem !important;
+}
+
+.p-component, .p-component * {
+    box-sizing: border-box !important;
+}
+
+.p-organizationchart-table {
+    border-spacing: 0 !important;
+    border-collapse: separate !important;
+    margin: 0 auto !important;
+}
+
+.p-organizationchart .p-organizationchart-line-down {
+    background: black;
+}
+
+.p-organizationchart .p-organizationchart-line-top {
+    border-top: 1px solid black !important;
+    border-color: black !important;
+}
+
+.p-organizationchart .p-organizationchart-line-left {
+    border-right: 1px solid black !important;
+    border-color: black !important;
+}
+
+tr:hover{
+    background-color: transparent;
+}
+
+.p-organizationchart-table{
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.p-organizationchart-node-content{
+    border-radius: 10px;
+}

@@ -1,0 +1,96 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+}
+.carta {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.5in 1in 0 1in;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 12px !important;
+}
+.center-card{
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    margin: 3%;
+  }
+.w-25 {
+    width: 25% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-75 {
+    width: 75% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-70 {
+    width: 70% !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+
+.header {
+    width: 50% !important;
+}
+
+.center-items {
+    display: flex !important;
+    align-items: center !important;
+}
+.text-start {
+    text-align: left !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+.my-0 {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.tiny-text{
+    font-size: 9px;
+    text-align: left;
+   }
+.text-10{
+    font-size: 10px !important;
+}
+   
+.border{
+    border: 1px solid black;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+.border-right{
+    border-right: 1px solid black;
+}
+.ProfilePic{
+    width: 1.2in !important;
+}

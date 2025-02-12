@@ -1,0 +1,123 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    line-height: normal;
+}
+
+.carta {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.5in 1in 0 1in;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 12px !important;
+}
+
+.text-start {
+    text-align: left !important;
+}
+
+.header {
+    width: 80% !important;
+    margin-left: 10%;
+}
+
+.barraVertical {
+    position: absolute;
+    margin-left: -0.8in;
+    width: 20px;
+    height: 10in;
+}
+
+.barraHorizontal {
+    position: absolute;
+    margin-top: 9in;
+    margin-left: 0in !important;
+    width: 6.5in;
+    height: 10px;
+}
+
+.title-large {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%
+}
+
+.highlight-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.general-text{
+    text-indent: 4em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.proces-text{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.list-text{
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.rectangular-section {
+    text-align: left;
+    border: 1px solid black;
+    padding: 1px;
+    margin-bottom: 2px;
+  }
+
+  .separated-column {
+    padding-left: 1in;
+}
+
+.signature-text{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.large-separation{
+    margin-bottom: 100px;
+}
+
+.middle-separation{
+    margin-bottom: 50px;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.center-items {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.end-items {
+    display: flex !important;
+    align-items: center !important;
+    text-align: right !important;
+    justify-content: end;
+}

@@ -1,0 +1,223 @@
+* {
+  transition: all 0.3s ease;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4f100c;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  margin: 0 !important;
+}
+
+.carousel-inner {
+  height: 100% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.bg-red-500 {
+  background-color: #4f100c;
+}
+
+.text-red-400 {
+  color: #6e1b10;
+}
+
+.btn {
+  transition: all 0.4s ease !important;
+}
+
+#Layout {
+  width: 100vw !important;
+  overflow: hidden !important;
+}
+
+.btn:hover {
+  color: #6e1b10;
+  transform: scale(1.15);
+}
+
+.custom-container {
+  width: 90vw !important;
+  height: 100% !important;
+  margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+#Footer {
+  height: 16vh;
+}
+
+#Footer .custom-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+#Directorio p {
+  margin: 0 !important;
+  font-weight: lighter;
+  color: white;
+}
+
+#SocialMenu svg {
+  color: white !important;
+  font-size: 0.8rem;
+}
+
+#NavBar {
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navMenuIcon {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.4s ease;
+}
+
+.navMenuIcon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.navPerfilItem:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.directorioIcon {
+  font-size: 1rem !important;
+}
+
+.directorioIcon:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.directorioLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#LinkToMap:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#GridMenuContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+}
+
+.sideBarMenuLink {
+  width: auto !important;
+}
+
+.sideBarMenuLink svg {
+  margin-right: 0.5rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.sideBarMenuLink span {
+  color: #4f100c;
+}
+
+.sideBarMenuLink:hover {
+  /* border-bottom: 2px solid #4f100c; */
+  text-decoration: underline;
+}
+
+select,
+input {
+  /* color: #4f100c; */
+  /* border: 2px solid #6e1b10 !important; */
+  border: 2px solid #4f100c !important;
+}
+
+.SEZ-btn {
+  background-color: #4f100c !important;
+  border: none !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.SEZ-btn:hover {
+  transform: scale(1.03) !important;
+}
+
+button {
+  background-color: #4f100c !important;
+  border: none !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  box-shadow: -3px 5px 10px rgba(0, 0, 0, 0.3);
+  color: white !important;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  color: white !important;
+  /* transform: scale(1.06) !important; */
+}
+
+.defaultMenuGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.btn-sez-default {
+  width: 100% !important;
+}
+
+.bg-red-500 {
+  background-color: #4f100c !important;
+}
+
+.btn-close {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+a button {
+  width: 100% !important;
+  transition: all 0.3s ease;
+}
+
+a button:hover {
+  transform: scale(1.05);
+}

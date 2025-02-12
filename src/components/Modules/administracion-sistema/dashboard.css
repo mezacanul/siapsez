@@ -1,0 +1,19 @@
+.dashboard-option{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    flex: 0 0 calc(33% - 20px);
+    height: 100px;
+    text-align: center;
+    transition: ease all 0.5s;
+}
+
+.dashboard-option p {
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+.dashboard-option:hover{
+    scale: 1.1;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.main-card{
+    border: 1.5px solid #A6A6A6;
+    border-radius: 16px;
+    width: 100%;
+    padding: 0;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    padding: 8px 15px;
+    border-radius: 16px 16px 0 0 !important;
+    height: 60px;
+    background-color: var(--bg-gray-light-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #A6A6A6;
+}
+
+.card-header h3 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.card-body{
+    padding: 20px;
+    border-radius: 0 0 16px 16px;
+    background-color: white;
+    min-height: 140px;
+    overflow-x: scroll;
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Esto le dice al compilador que el directorio base es la raíz del proyecto.
+    "paths": {
+      "@modulesComponents/*": ["src/components/Modules/*"], // Alias para components
+      "@utilitiesComponents/*": ["src/components/utilities/*"], // Alias para components
+      "@assets/*": ["src/assets/*"], // Alias para assets
+      "@utils/*": ["src/utils/*"] // Alias para assets
+    }
+  },
+  "include": [
+    "src/**/*" // Asegúrate de incluir los archivos en src
+  ]
+}

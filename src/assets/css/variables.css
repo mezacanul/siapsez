@@ -1,0 +1,27 @@
+/* Configuraciones globales del portal */
+
+:root{
+    --main-color: #640104;
+    --bg-color: #F4F4F4;
+    --text-color: #707070;
+    --light-main-color: #920D14;
+    --bg-gray-light-color: #F1F1F1;
+    --pink: #e5007d;
+    --dark-blue: #062947;
+    --light-blue: #009fe3;
+    --green: #1cad56;
+    --yellow: #f79f03;
+}
+
+*::-webkit-scrollbar {
+    width: 0.4em;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent; /* Sin borde */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Color del thumb */
+    border-radius: 10px; /* Bordes redondeados */
+  }

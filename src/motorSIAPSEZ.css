@@ -1,0 +1,40 @@
+#MotorSIAPSEZ {
+  min-height: 78vh !important;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  width: 100%;
+}
+
+#MotorContainer {
+  width: 100%;
+}
+
+.menuNewItem {
+   display: flex; 
+   align-items: center;
+   background-color: #4f100c;
+   padding-top: 0.8rem;
+   padding-bottom: 0.8rem;
+   box-shadow: -5px 5px 8px 2px rgba(0, 0, 0, 0.25);
+   border: 3px solid transparent;
+}
+
+.menuNewItem p {
+    color: white;
+    margin: 0;
+}
+
+.menuNewItem:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid #4f100c;
+}
+
+.menuNewItem:hover > p {
+    color: #4f100c;
+}
+
+.menuNewItem svg {
+    /* transition: all 0.3s ease; */
+}

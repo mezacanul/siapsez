@@ -1,0 +1,19 @@
+.form-empleado{
+    width: 100%;
+}
+
+.form-empleado input{
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.right-line{
+    border-right: 1px solid #999999;
+    height: 100%;
+}
+
+.form-alta-empleado p{
+    margin: 0 !important;
+}

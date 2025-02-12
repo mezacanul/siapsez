@@ -1,0 +1,100 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  line-height: normal;
+}
+
+.carta {
+    width: 8.5in;
+    height: 11in;
+    padding: 0.5in 1in 0 1in;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 12px !important;
+  }
+  .center-card{
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    margin: 3%;
+  }
+  .barra1{
+    position: absolute;
+    margin-left: -0.5in;
+    width: 20px;
+    height: 10in;
+  }
+  .barra2{
+    position: absolute;
+    margin-top: 9in;
+    margin-left: 0in ;
+    width: 6.5in;
+    height:10px;
+  }
+  .header{
+    width: 80% !important;
+    margin-left: 10%;
+  }
+
+  .text-center{
+    display: flex;
+    text-align: center !important;
+    width: 100% !important;
+    align-items: center !important;
+    padding: 0 10% 0 10%;
+    margin: 3%;
+  }
+  .text-start{
+    text-align: left !important;
+  }
+  .fist-data{
+    margin-left: 50%;
+    width: 50%;
+    display: flex !important;
+    align-items: center !important;
+    text-align: start !important;
+  }
+.m-0{
+    margin: 0 !important;
+}
+.text-start{
+    text-align: left !important;
+}   
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.mt-0{
+    margin-top: 0 !important;
+}
+.justify-text{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+.sign{
+
+    height: 15% !important;
+    display: flex !important;
+    align-items: end !important;
+    text-align: center !important;
+}
+.tiny-text{
+ font-size: 9px;
+ text-align: left;
+}
+.center-items{
+    display: flex !important;
+    align-items: center !important;
+}
+.end-items{
+    display: flex !important;
+    align-items: center !important;
+    text-align: right !important;
+    justify-content: end;
+}
+.w-50{
+ width: 50% !important;
+}
+.w-100{
+    width: 100% !important;
+   }
